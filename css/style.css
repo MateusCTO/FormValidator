@@ -1,0 +1,40 @@
+.screen {
+  display: flex;
+  height: 100vh;
+}
+.leftSide {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftSide img {
+  max-width: 500px;
+  height: auto;
+}
+.rightSide {
+  width: 400px;
+  background-color: #888;
+  padding: 50px;
+}
+.rightSide label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.rightSide input {
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  outline: 0;
+}
+
+.error {
+  font-size: 11px;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+}
